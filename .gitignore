@@ -1,0 +1,5 @@
+*.pdf
+!examples/report.pdf
+*-page-*.png
+__pycache__/
+.DS_Store

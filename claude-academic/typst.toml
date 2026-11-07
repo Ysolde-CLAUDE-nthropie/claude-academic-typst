@@ -1,0 +1,9 @@
+[package]
+name = "claude-academic"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Ysolde-CLAUDE-nthropie"]
+license = "MIT"
+description = "Academic reports with ivory paper, a clay accent, classical serif type, and LaTeX conventions."
+compiler = "0.13.0"
+keywords = ["report", "academic", "paper", "latex"]

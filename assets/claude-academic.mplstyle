@@ -1,0 +1,62 @@
+# claude-academic — matplotlib style. Load via scripts/plot_style.py (registers the bundled fonts).
+# Sized so that a 5.6 in wide figure placed at `width: 100%` keeps text at ~7.5 pt, matching captions.
+
+figure.figsize      : 5.6, 2.9
+figure.dpi          : 150
+figure.facecolor    : none
+axes.facecolor      : none
+savefig.facecolor   : none
+savefig.transparent : True
+savefig.bbox        : tight
+savefig.pad_inches  : 0.03
+svg.fonttype        : path
+
+font.family         : sans-serif
+font.sans-serif     : Inter, DejaVu Sans
+font.serif          : Source Serif 4, DejaVu Serif
+font.monospace      : JetBrains Mono, DejaVu Sans Mono
+font.size           : 7.5
+mathtext.fontset    : cm
+text.color          : 141413
+
+axes.prop_cycle     : cycler('color', ['D97757', '6A9BCC', '788C5D', 'D4A27F', 'C46686', '5E5D59'])
+axes.edgecolor      : 141413
+axes.linewidth      : 0.6
+axes.labelcolor     : 3D3D3A
+axes.labelsize      : 7.5
+axes.labelpad       : 4
+axes.titlesize      : 8
+axes.titleweight    : semibold
+axes.titlelocation  : left
+axes.titlepad       : 8
+axes.spines.top     : False
+axes.spines.right   : False
+axes.grid           : True
+axes.grid.axis      : y
+axes.axisbelow      : True
+grid.color          : E6E3D8
+grid.linewidth      : 0.6
+
+xtick.color         : 73726C
+ytick.color         : 73726C
+xtick.labelcolor    : 73726C
+ytick.labelcolor    : 73726C
+xtick.labelsize     : 7
+ytick.labelsize     : 7
+xtick.major.size    : 3
+xtick.major.width   : 0.6
+ytick.major.size    : 0
+ytick.major.pad     : 4
+
+lines.linewidth     : 1.6
+lines.markersize    : 4
+lines.solid_capstyle: round
+patch.linewidth     : 0
+patch.edgecolor     : none
+
+legend.frameon      : False
+legend.fontsize     : 7
+legend.handlelength : 1.4
+legend.borderaxespad: 0.2
+
+image.cmap          : Oranges
